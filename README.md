@@ -3,6 +3,8 @@ A small file manager and storage server for ESP32 with Wokwi, using SDCard and H
 
 # How to use?
 
+**You need**: ESP32, Micro SDCard, Jumper
+ 
 1. Download/clone this repo
 2. Change your SSID in `./src/sketch.ino`
 3. Compile the project with Arduino IDE/Platform IO
