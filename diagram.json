@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Tiến Anh Lê",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": 0.23, "left": -134.33, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "sd1:CS", "esp:5", "green", [ "h0" ] ],
+    [ "sd1:GND", "esp:GND.1", "black", [ "h0" ] ],
+    [ "sd1:VCC", "esp:3V3", "red", [ "h0" ] ],
+    [ "sd1:SCK", "esp:18", "green", [ "h0" ] ],
+    [ "sd1:DO", "esp:19", "green", [ "h0" ] ],
+    [ "sd1:DI", "esp:23", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
