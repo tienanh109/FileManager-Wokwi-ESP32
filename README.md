@@ -4,8 +4,10 @@ A small file manager and storage server for ESP32 with Wokwi, using SDCard and H
 # How to use?
 
 1. Download/clone this repo
-2. Compile the project with Arduino IDE/Platform IO
-3. Flash the Firmware by Ctrl+U in Arduino IDE or run it with Wokwi for VSCode virtual machine (pre-configured)
+2. Change your SSID in `./src/sketch.ino`
+3. Compile the project with Arduino IDE/Platform IO
+4. Flash the Firmware by Ctrl+U in Arduino IDE or run it with Wokwi for VSCode virtual machine (pre-configured)
+5. Open `localhost` in browser
 
 # Notes
 
