@@ -5,8 +5,8 @@
 
 #define SD_CS 5
 
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
+const char* ssid = "YOUR_SSID"; // if it was wokwi it would be Wokwi-GUEST
+const char* password = "YOUR_PASSWORD"; // leave empty if it was 
 
 WebServer server(80);
 File uploadFile;
